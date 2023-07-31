@@ -1,0 +1,263 @@
+* {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+}
+
+
+
+
+html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+      background-image: url(images/background.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+}
+
+#side {
+      align-items:start;
+      position: fixed;
+      height: 100vh;
+      font-family: 'Tektur', cursive;s-serif;
+      font-size: 2rem;  
+}
+
+
+.sidebar{
+      height: 100vh;
+      position: sticky;
+      top: 0;
+
+}  
+
+.navbar {
+      z-index: 1;
+      background-image: url(https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+        font-family: 'Tektur', cursive;
+          /*font-weight: 400;*/
+          font-size: 4vw;      
+}
+
+.collapse{
+      z-index: 2;
+}
+
+.navpic {
+      height: 7vh;
+      width: 7vh;
+      position: relative;
+}
+
+
+.background {
+      min-height: auto;
+      background-image: url(https://64.media.tumblr.com/17c959d20b8657d699efeea44760ab02/tumblr_petzq2fidq1uzwgsuo1_400.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center bottom;
+      background-attachment: fixed; 
+     /* background-attachment: scroll;*/
+     position: absolute;
+}
+
+.name {
+      font-family: 'Tektur', cursive;
+      font-size: 6vh;
+      font-weight: 600;
+}
+
+.title {
+      font-family: 'Tektur', cursive;
+      font-size: 4vh;
+      font-weight: 400;
+}
+
+.profile-detail {
+      font-family: 'Tektur', cursive;
+      font-size: 3vh;
+      font-weight: 400;
+
+}
+
+
+
+
+.container-bg{
+      min-height: 100vh;
+}
+
+.profile {
+      height: auto;
+      width: 250px;
+}
+
+
+.proj:hover {
+      transform: scale(1.2);
+}
+
+
+.map {
+      height: 16rem;
+      width: 20rem;
+}
+
+#side {
+      height: 100vh;
+}
+
+#landing {
+      height: auto;
+      margin-bottom: 160px!important;
+      margin-top: 3vw!important;    
+}
+
+
+.btn {
+      margin-bottom: 3vw;
+      margin-top: 5vw;
+}
+
+/*.btn-resume {
+      font-family: 'Tektur', cursive;
+      border-radius: 12px;
+      font-size: 2vw;
+     padding: 10px;
+     margin-right: 10px ;
+     margin-left: 10px;
+     margin-bottom: 0px;
+     margin-top: 100px;
+}*/
+
+.btn-resume {
+      font-family: 'Tektur', cursive;
+  position: relative;
+  background-color: #084690;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn-resume:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.btn-resume:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+#projects {
+      height: auto;
+      /*background-image: url(https://static.wixstatic.com/media/5cfe14_30977ca5f4d04cc2a8977a980baf19a9~mv2.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      overflow: hidden; */
+      font-family: 'Tektur', cursive;
+      font-size: 3vw!important; 
+      margin-bottom: 100px!important;                
+}
+
+.project-title {
+       font-family: 'Tektur', cursive;
+       font-size: 4.5vh;
+}
+
+
+.projects-pic {
+      height: 20vh;
+      width: 20vh;
+      position: relative;
+}
+
+
+.grow img {
+transition: 1s ease;
+}
+
+.grow img:hover{
+-webkit-transform: scale(1.3);
+-ms-transform: scale(1.3);
+transform: scale(1.3);
+transition: 1s ease;
+}
+
+
+
+
+#contact {
+      height: auto;
+      font-family: 'Tektur', cursive;
+
+}
+
+#tools {
+      height: auto;
+      position: static;      
+}
+
+.tools-title {
+      font-family: 'Tektur', cursive;
+      font-size: 4.5vh;
+}
+
+.carousel-inner img {
+  margin: auto;
+  width:150px;
+  height:150px;
+}
+
+.message-me {
+  width: auto;
+  height: 500px
+}
+
+.message-contact {
+  font-family: 'Tektur', cursive;
+  font-size: 3vh;
+  margin-top: 100px;
+}
+
+
+.social-icon img {
+      height: 5vw;
+      width: 5vw;
+      margin-top: 10vw;
+}
+
+.footer {
+      font-family: 'Tektur', cursive;
+      font-size: 1vw;
+      color:#014bc0;
+}
+
+
+
+
+
+
